@@ -13,5 +13,10 @@ namespace ServerWeb.Controllers
         {
             return "HELLLO";
         }
+
+        public string Index2(int id)
+        {
+            return "Hello" + id;
+        }
     }
 }
